@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add meta tags for description, keywords, and author -->
+    <meta name="description" content="E-learning Platform">
+    <meta name="keywords" content="E-learning, courses, certifications, free, verified">
+    <meta name="author" content="Yasmine Hmida">
+    <title>E-learning</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <!-- Nav Manual Creation with <span> and <div> -->
+        <div>
+            <span>
+                <a href="Exercice1.html">Main</a>
+            </span>
+            <span>
+                <a href="about.html">About</a>
+            </span>
+            <span>
+                <a href="course.html">Courses</a>
+            </span>
+        </div>
+        <hr>
+    </header>
+
+    <!-- Intro Paragraph -->
+    <h1 class ="section" id="intro">
+        Welcome to E-learning Platform 
+        <br>
+        Where you can learn about almost every subject.
+    </h1>
+
+    <!-- Adding an Image -->
+    <img src="1.jpg" alt="E-learning Image1">
+    <img src="2.jpg" alt="E-learning Image2">
+    <img src="3.jpg" alt="E-learning Image3">
+
+
+    <!-- Unordered List  -->
+    <br>
+    <div class="inline">
+        <h2 class ="section">In our Platform, You:</h2>
+        <ul>
+            <li>Have access to Online courses from everywhere.</li>
+            <li>Obtain free certificates as a sign of compelation.</li>
+            <li>Obtain verified certificates for a very good price.</li>
+        </ul>
+    </div>
+
+    <!-- Adding a Link to Your Favorite Website -->
+    <div class="inline" >
+        In E-learning, we use other ressources such as: 
+        <br>
+        <ul>
+            <li>
+                <a href="https://www.w3schools.com/" target=”_blank”>W3School</a>
+            </li>
+            <li>
+                <a href="https://leetcode.com/" target=”_blank”>LeetCode</a>
+            </li>
+            <li>
+                <a href="https://www.geeksforgeeks.org/" target=”_blank”>GeeksForGeeks</a>
+            </li>
+        </ul>
+    </div> 
+
+    <h3 class="section">
+        And we have courses in almost any field:
+    </h3>
+
+    <!-- Adding a table -->
+    <table>
+        <!-- Row1 -->
+        <tr>
+            <th>Field</th>
+            <th>Number of courses</th>
+        </tr>
+
+        <!-- Row2 -->
+        <tr>
+            <td>Computer Science</td>
+            <td>20</td>
+        </tr>
+
+        <!-- Row3 -->
+        <tr>
+            <td>Marketing</td>
+            <td>10</td>
+        </tr>
+
+        <!-- Row4 -->
+        <tr>
+            <td>Buisness</td>
+            <td>15</td>
+        </tr>
+
+        <!-- Row5 -->
+        <tr>
+            <td>Design</td>
+            <td>5</td>
+        </tr>
+
+        <!-- Row6 -->
+        <tr>
+            <td>Psychology</td>
+            <td>3</td>
+        </tr>
+    </table>
+
+    <!-- Creating Forms -->
+    <form style ="border: 1px solid black; display: inline-block;">
+        <!-- Search Bar -->
+        <Label class ="section">Feel free to make a search:</Label>
+        <br>
+        <input type="text" name="text" placeholder="Search Courses..." class="textfield">
+        <button type="submit" class="textfield" id="button">Search</button>
+
+        <br>
+        Please fill out this form to be able to help you and be specific:
+        <!-- RadioButtons -->
+        <br>
+        <label class ="section">Do you Prefer free or priced certificates?</label>
+        <br>
+        <input type="radio">
+        <label>Free</label>
+        <br>
+        <input type="radio">
+        <label>Priced</label>
+
+        <!-- Checkboxes -->
+        <br>
+        <label class ="section">What's the field(s) you're interested in?</label>
+        <br>
+        <input type="checkbox">
+        <label>Computer Science</label>
+        <br>
+        <input type="checkbox">
+        <label>Marketing</label>
+        <br>
+        <input type="checkbox">
+        <label>Buisness</label>
+        <br>
+        <input type="checkbox">
+        <label>Design</label>
+        <br>
+        <input type="checkbox">
+        <label>Psychology</label>
+    </form>
+</body>
+</html>

@@ -1,0 +1,56 @@
+/*Styling the Body*/
+body{
+    background-color: #e9ecef;
+    font-family:Georgia;
+    font-size:larger;
+}
+
+/*Styling the anchor tags*/
+a{
+    text-decoration: none;
+    color:#264653;
+}
+a:hover{
+    font-size:x-large;
+}
+
+/*Styling the section parts*/
+.section{
+    font-size:x-large;
+    color:#023047;
+}
+
+/* Styling the image*/
+img{
+    height:500px;
+    width:485px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+/* Styling the Intro*/
+#intro{
+    font-size:xx-large;
+}
+
+/*Styling the divs under the images*/
+.inline,th,td,form{
+    padding:5px;
+}
+
+/* Styling the table*/
+table, th, td {
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+/*Styling the textfield*/
+.textfield{
+    height:30px;
+    width:500px;
+    margin-bottom:10px;
+}
+
+#button{
+    width:200px;
+}
